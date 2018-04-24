@@ -1,0 +1,585 @@
+    /*top-banner部分开始*/
+    .top-banner {
+        height: 80px;
+        background-color: #F9868B;
+        position: relative;
+    }
+    .top-banner-w {
+        position: relative;
+    }
+    .top-banner-w span{
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        background-color: rgba(188, 107, 111,.6);
+        color: rgba(255, 255, 255,.6);
+        position: absolute;
+        top: 5px;
+        right: 0;
+        cursor: pointer;
+    }
+    /*top-banner部分结束*/
+
+    /*sub-banner部分开始*/
+    .sub-banner {
+        position: relative;
+    }
+    .sub-banner a {
+        width:100%;
+        position: absolute;
+        height: 480px;
+        background: url(../images/banner6.png) no-repeat center;
+    }
+    /*sub-banner部分结束*/
+
+
+    /*main部分开始*/
+    .main {
+        height: 480px;
+        margin-bottom: 30px;
+        position: relative;
+    }
+    .main-left {
+        width: 190px;
+        height: 465px;
+        background-color: #fff;
+        padding-top: 15px;
+    }
+    .main-left li {
+        height: 28px;
+        line-height:28px;
+        padding-left: 14px;
+    }
+    .main-left a {
+        font-size: 14px;
+        color: #626262;
+    }
+    .main-left li:hover {
+        background-color: #eee;
+    }
+    .main-left a:hover {
+        color: #e33333;
+    }
+    .all {
+        width: 590px;
+        height: 470px;
+        padding: 10px 10px 0 10px;
+        position: relative;
+    }
+    .screen {
+        width: 590px;
+        height: 470px;
+        overflow: hidden;
+        position: relative;
+    }
+    .screen li {
+        width: 590px;
+        height: 470px;
+        overflow: hidden;
+        float: left;
+    }
+    .screen ul {
+        position: absolute;
+        left: 0;
+        top: 0px;
+        width: 600%;
+        cursor: pointer;
+    }
+    .all ol {
+        position:absolute;
+        left: 50%;
+        bottom: 20px;
+        margin-left: -25px;
+        text-align:center;
+    }
+    .all ol li {
+        color: red;
+        float:left;
+        width:10px;
+        height:10px;
+        border-radius: 50%;
+        background:rgba(255,255,255,.5);
+        cursor:pointer;
+        margin: 0 5px;
+    }
+    .all ol li.current {
+        background: #fff;
+    }
+
+    #arr {
+        display: none;
+    }
+    #arr span {
+        width:40px;
+        height:40px;
+        position:absolute;
+        left:5px; top:50%;
+        margin-top:-20px;
+        background:#000;
+        cursor:pointer;
+        line-height:40px;
+        text-align:center;
+        font-weight:bold;
+        font-family:'黑体';
+        font-size:30px;
+        color:#fff;
+        opacity:0.3;
+        border:1px solid #fff;
+    }
+    #arr #right{
+        right:5px;
+        left:auto;
+    }
+
+    .main-center-right {
+        width: 190px;
+        height: 470px;
+        padding: 10px 10px 0 0 ;
+    }
+    .main-center-right a {
+        display: block;
+        width: 190px;
+        height: 150px;
+        opacity: 1;
+        transition: opacity 0.3s ease;
+    }
+    .main-center-right a:hover {
+        opacity: 0.8;
+    }
+    .main-center-right-pic {
+        margin: 10px 0;
+    }
+    .main-right {
+        width: 190px;
+        height: 470px;
+        background-color: #fff;
+        margin-top: 10px;
+    }
+    .main-right-top {
+        width: 190px;
+        height: 156px;
+        position: relative;
+    }
+    .main-right-top {
+        position: relative;
+    }
+    .main-right-top-one a {
+        width: 55px;
+        height: 55px;
+        border: 5px solid #e3e1df;
+        border-radius: 50%;
+        overflow: hidden;
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        margin-left: -34px;
+        box-shadow: 3px 6px 25px #c3c3c3;
+    }
+    .main-right-top-two {
+        text-align: center;
+        position: absolute;
+        top: 67px;
+        left: 44px;
+    }
+    .main-right-top-three {
+        text-align: center;
+        position: absolute;
+        top: 116px;
+        left: 13px;
+    }
+    .plus1 {
+        display: inline-block;
+        margin: 0 5px;
+        width: 70px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+        text-align: center;
+        color: #e43f3b;
+        border-radius: 13px;
+        box-shadow: 6px 8px 20px rgba(45,45,45,.15);
+        transition: background .3s ease,color .3s ease;
+    }
+    .plus1:hover {
+        background: #e43f3b;
+        color: #fff;
+    }
+    .plus2 {
+        background: #363634;
+        color: #e5d790;
+        display: inline-block;
+        margin: 0 5px;
+        width: 70px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+        text-align: center;
+        border-radius: 13px;
+        box-shadow: 6px 8px 20px rgba(45,45,45,.15);
+        transition: background .3s ease,color .3s ease;
+    }
+    .plus2:hover {
+         background: #e43f3b;
+         color: #fff;
+    }
+    .main-right-in {
+        width: 190px;
+        height: 124px;
+    }
+    .main-right-in-up {
+        height: 17px;
+        position: relative;
+    }
+    .main-right-in-promotion,.main-right-in-notice {
+        font-size: 12px;
+        color: #333;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-right: 1px solid #dfe0e1;
+    }
+    .main-right-in-promotion:hover {
+        color: #333;
+    }
+    .main-right-in-notice:hover {
+        color: #333;
+    }
+    .main-right-in-notice {
+        border-right: none;
+    }
+    .main-right-in-more {
+        position: absolute;
+        right: 12px;
+        top: 0;
+        font-size: 12px;
+    }
+    .main-right-in-line {
+        width: 27px;
+        height: 2px;
+        background: #db192b;
+        margin-left: 14px;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        transition: transform .3s ease,-webkit-transform .3s ease,-moz-transform .3s ease;
+    }
+    .main-right-in-down1,.main-right-in-down2 {
+        position: relative;
+        margin: 0 15px;
+        height: 88px;
+        padding-top: 8px;
+    }
+    .news_list li{
+
+        line-height: 22px;
+        max-width: 160px;
+        _width: 160px;
+        white-space: nowrap;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        color: #999;
+    }
+    .main-right-bottom {
+        border-top: 1px solid #eee;
+        margin: 15px 0 0 10px;
+    }
+    .main-right-bottom li {
+        width: 42px;
+        height: 55px;
+        float: left;
+        text-align: center;
+    }
+    .main-right-bottom a {
+        display: block;
+        width: 42px;
+        height: 55px;
+        position: relative;
+        color: #d1c5ae;
+    }
+    .main-right-bottom a:hover {
+        color: #c81623;
+    }
+    /*.main-right-bottom s:hover {*/
+        /*color: #c81623;*/
+    /*}*/
+    .main-right-bottom i {
+        position: relative;
+    }
+    .main-right-bottom s {
+        position: absolute;
+        top: 4px;
+        left: -10px;
+        color: #d1c5ae;
+    }
+    .main-right-bottom span {
+        position: absolute;
+        top: 28px;
+        left: 8px;
+    }
+    /*main部分结束*/
+
+    /*seckill部分开始*/
+    .seckill {
+        height: 275px;
+
+    }
+    .seckill-left {
+        width: 190px;
+        height: 275px;
+        background-color: #E83632;
+    }
+    .seckill-left a{
+        display: block;
+        width: 190px;
+        height: 275px;
+        position: relative;
+    }
+    .seckill-left-one {
+        top: 42px;
+        font-size: 34px;
+        color: #fff;
+        position: absolute;
+        top: 40px;
+        left: 27px;
+    }
+    .seckill-left-two {
+        font-size: 20px;
+        color: #fff;
+        color: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        top: 87px;
+        left: 29px;
+    }
+    .seckill-left-three {
+        width: 20px;
+        height: 33px;
+        background: url("../images/shand.png") no-repeat -32.5px 0;
+        background-size: 52.5px 40px;
+        position: absolute;
+        bottom: 120px;
+        left: 87px;
+    }
+    .seckill-left-four {
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        position: absolute;
+        bottom: 85px;
+        left: 0px;
+    }
+    .seckill-left-five {
+        width: 138px;
+        height: 40px;
+        position: absolute;
+        bottom: 23px;
+        left: 27px;
+    }
+    .time {
+        width: 40px;
+        height: 40px;
+        margin: 0 3px;
+        float: left;
+        position: relative;
+    }
+    .time i {
+        display: block;
+        width: 40px;
+        height: 20px;
+        background-color: #2F3430;
+        margin-bottom: 1px;
+    }
+    .time s {
+        display: block;
+
+        width: 40px;
+        height: 19px;
+        background-color: #2F3430;
+    }
+    .time span {
+        line-height: 40px;
+        font-weight: bold;
+        font-size: 20px;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        left: 7px;
+    }
+    .seckill-center {
+        width: 800px;
+        height: 275px;
+        float: left;
+        overflow: hidden;
+        position: relative;
+    }
+    .seckill-center-all {
+        width: 450%;
+        height: 275px;
+        text-align: center;
+        position: absolute;
+    }
+    .seckill-center-all ul{
+        width: 800px;
+        height: 275px;
+        float: left;
+        /*position: absolute;*/
+    }
+    .seckill-center-all li{
+        width: 199px;
+        height: 275px;
+        float: left;
+        background-color: #fff;
+        border-right: 1px solid #F0F0F0;
+        position: relative;
+
+    }
+    .seckill-center-all a {
+        display: block;
+        width: 199px;
+        height: 275px;
+    }
+
+    .seckill-center-all-pic {
+        width: 140px;
+        height: 140px;
+        position: absolute;
+        top: 32px;
+        left: 30px;
+        opacity: 1;
+    }
+    .seckill-center-all-p {
+        width: 160px;
+        padding: 0 15px;
+        line-height: 30px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        position: absolute;
+        top: 190px;
+        left: 0;
+    }
+    .price {
+        width: 162px;
+        height: 22px;
+        line-height:22px;
+        position: absolute;
+        bottom: 23px;
+        left: 21px;
+    }
+    .price-left {
+        width: 80px;
+        height: 22px;
+        background-color: #E6382F;
+        color: #fff;
+
+    }
+    .price-left span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .price-left i {
+        /*margin-right: 3px;*/
+        font-family: arial;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .price-right {
+        width: 80px;
+        height: 20px;
+        border: 1px solid #E6382F;
+        color: #b7bcb8;
+    }
+    .price-right span {
+        font-size: 12px;
+        text-decoration: line-through;
+    }
+    .price-right i {
+        font-family: arial;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .seckill-center-button-left,.seckill-center-button-right {
+        float: left;
+        border-radius: 3px;
+        width: 20px;
+        height: 40px;
+        line-height: 40px;
+        color: hsla(0,0%,100%,.4);
+        font-family: '黑体';
+        text-align: center;
+        font-style: normal;
+        background-color: rgba(0,0,0,.15);
+        font-size: 20px;
+    }
+    .seckill-center-button-left {
+        float: left;
+        position: absolute;
+        top: 110px;
+        left: 0px;
+        cursor: pointer;
+        transition: all .4s ease;
+    }
+    .seckill-center-button-right {
+        float: right;
+        position: absolute;
+        top: 110px;
+        right: 1px;
+        cursor: pointer;
+        transition: all .4s ease;
+    }
+    .seckill-center-button-left:hover,
+    .seckill-center-button-right:hover{
+        background-color: rgba(0,0,0,.4);
+    }
+    
+    .seckill-right {
+        height: 275px;
+        width: 200px;
+        background-color: #fff;
+    }
+    .seckill-right-one {
+        width: 180px;
+        height: 260px;
+        background-color: red;
+        margin: 8px 0 0 10px;
+        overflow: hidden;
+        position: relative;
+    }
+    .seckill-right-one ul {
+        width: 1000%;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .seckill-right-one li {
+        width: 180px;
+        height: 260px;
+        float: left;
+    }
+    .seckill-right-one a {
+        display: block;
+        width: 180px;
+        height: 260px;
+    }
+    .seckill-right-one ol {
+        position: absolute;
+        bottom: 12px;
+        left: 50%;
+        margin-left: -14px;
+    }
+    .seckill-right-one ol li {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: #C0C0C0;
+        margin: 0 5px;
+    }
+    .seckill-right-one ol .olcurrent {
+        background-color: #E33333;
+    }
+
+    /*seckill部分结束*/
+
+    /*top-banner部分开始*/
+    /*top-banner部分结束*/
